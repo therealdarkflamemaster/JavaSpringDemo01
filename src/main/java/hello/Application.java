@@ -7,5 +7,9 @@ public class Application {
         // create a printer object
         MessagePrinter printer = new MessagePrinter();
 
+        MessageService service = new MessageService();
+
+        printer.setService(service);
+        printer.printMessage();
     }
 }
