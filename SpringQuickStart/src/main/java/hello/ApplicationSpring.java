@@ -3,7 +3,7 @@ package hello;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 
 public class ApplicationSpring {
@@ -12,7 +12,7 @@ public class ApplicationSpring {
         System.out.println("applicationSpring");
 
         // initiser Spring
-        ApplicationContext context = new AnnotationConfigApplicationContext(ApplicationSpring.class);
+        ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
         // MessagePrinter Object
         MessagePrinter printer = context.getBean(MessagePrinter.class);
         // MessageService Object

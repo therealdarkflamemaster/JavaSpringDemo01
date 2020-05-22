@@ -2,10 +2,11 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-<!--    bean , fixe par Spring
-        id use to config
+
+    <!--    bean , fixe par Spring
+        id use to get the object
         class means real class name which is already created
--->
+     -->
 
     <bean id="service" class="hello.MessageService"></bean>
 
