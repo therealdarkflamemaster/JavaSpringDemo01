@@ -5,6 +5,7 @@
 
 <!--    use Spring to create object, which called Bean-->
     <bean id="hello" class="com.shengxiang.pojo.Hello">
-
+        <property name="str" value="spring"/>
+<!--        利用set方法-->
     </bean>
 </beans>

@@ -10,5 +10,6 @@
         <module name="spring02hellospring" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="11" />
   </component>
 </project>
